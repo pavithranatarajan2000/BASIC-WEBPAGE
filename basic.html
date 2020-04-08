@@ -1,0 +1,48 @@
+<html>
+<h1 align="center">BARBIE CAKE SHOP</h1></title>
+<style>
+body {
+  background-image: url('cake2.jpg');
+}
+</style>
+<marquee align="center" width="50%">welcome to my website!This is Your Friend....please login to continue....</marquee>
+<p align="center">LOGIN</p>
+<form name="loginForm" method="post" action="login.php">
+<table width="20%" bgcolor="#00FF00" align="center">
+<tr>
+<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+</tr>
+<tr>
+<td>Username:</td>
+<td><input type="text" size=25 name="userid"></td>
+</tr>
+<tr>
+<td>Password:</td>
+<td><input type="Password" size=25 name="pwd"></td>
+</tr>
+
+<tr>
+<td ><input type="Reset"></td>
+<td><input type="submit" onclick="return check(this.form)" value="Login"></td>
+</tr>
+
+</table>
+</form>
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value == "Roseindia" && form.pwd.value == "Roseindia")
+{
+	return true;
+}
+else
+{
+	alert("Error Password or Username")
+	return false;
+}
+}
+</script>
+<a href="https://www.google.com/search?q=cake+shop&rlz=1C1GCEU_enIN821IN825&oq=cake+shop&aqs=chrome..69i57j0l7.4202j0j8&sourceid=chrome&ie=UTF-8"><p text-align:"center"> Search</p></a>
+
+</body>
+</html>
